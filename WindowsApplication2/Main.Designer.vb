@@ -27,8 +27,8 @@ Partial Class frmMain
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblTtlCommission = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.chkOver10 = New System.Windows.Forms.CheckBox()
         Me.chkTraveling = New System.Windows.Forms.CheckBox()
+        Me.chkOver10 = New System.Windows.Forms.CheckBox()
         Me.btnCalc = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -49,6 +49,7 @@ Partial Class frmMain
         Me.txtSales.Name = "txtSales"
         Me.txtSales.Size = New System.Drawing.Size(197, 24)
         Me.txtSales.TabIndex = 1
+        Me.txtSales.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
@@ -63,6 +64,7 @@ Partial Class frmMain
         'lblTtlCommission
         '
         Me.lblTtlCommission.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblTtlCommission.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTtlCommission.Location = New System.Drawing.Point(15, 146)
         Me.lblTtlCommission.Name = "lblTtlCommission"
         Me.lblTtlCommission.Size = New System.Drawing.Size(411, 71)
@@ -81,16 +83,6 @@ Partial Class frmMain
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = " "
         '
-        'chkOver10
-        '
-        Me.chkOver10.AutoSize = True
-        Me.chkOver10.Location = New System.Drawing.Point(48, 24)
-        Me.chkOver10.Name = "chkOver10"
-        Me.chkOver10.Size = New System.Drawing.Size(119, 22)
-        Me.chkOver10.TabIndex = 0
-        Me.chkOver10.Text = "&Over 10 years"
-        Me.chkOver10.UseVisualStyleBackColor = True
-        '
         'chkTraveling
         '
         Me.chkTraveling.AutoSize = True
@@ -100,6 +92,16 @@ Partial Class frmMain
         Me.chkTraveling.TabIndex = 1
         Me.chkTraveling.Text = "&Traveling"
         Me.chkTraveling.UseVisualStyleBackColor = True
+        '
+        'chkOver10
+        '
+        Me.chkOver10.AutoSize = True
+        Me.chkOver10.Location = New System.Drawing.Point(48, 24)
+        Me.chkOver10.Name = "chkOver10"
+        Me.chkOver10.Size = New System.Drawing.Size(119, 22)
+        Me.chkOver10.TabIndex = 0
+        Me.chkOver10.Text = "&Over 10 years"
+        Me.chkOver10.UseVisualStyleBackColor = True
         '
         'btnCalc
         '

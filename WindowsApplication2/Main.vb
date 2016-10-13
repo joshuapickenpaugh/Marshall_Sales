@@ -1,4 +1,8 @@
-﻿Option Strict On
+﻿'Joshua Pickenpaugh
+'October 12th, 2016
+'Marshall Commision Calculator
+
+Option Strict On
 
 Public Class frmMain
 
@@ -27,7 +31,7 @@ Public Class frmMain
             comcalc.Traveling = False
         End If
 
-        lblTtlCommission.Text = 
+        lblTtlCommission.Text = comcalc.GetCommission().ToString("C2")
 
     End Sub
 End Class
